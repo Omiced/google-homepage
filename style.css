@@ -1,11 +1,24 @@
 div{
     display:block;
 }
-.divA{
+.divNav{
     display: inline-block;
     padding-left: 15px;
 }
-.link{
+.enlace{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
+}
+
+.logoP{
+    border-radius: 50%;
+
+}
+.puntitos{
+    fill: rgb(95, 99, 104);
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+    width: 24px;
+    height: 24px;
 }
