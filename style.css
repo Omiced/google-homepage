@@ -6,10 +6,13 @@ div{
     display:block;
 }
 .divNav{
-    display: block;
-    position: relative;
-
-    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
 }
 .divNav__divLink{
     display: inline-block;
@@ -17,6 +20,7 @@ div{
     padding-left: 15px;
     user-select: none;
     white-space: nowrap;
+    font-size: 13px;
 }
 
 .divNav__divLink-puntitos{
@@ -33,31 +37,82 @@ div{
     width: 40px;
     height: 40px;
 }
-
-.enlace{
-    color: rgba(0,0,0,0.87);
-    text-decoration: none;
+.divNav__divLink-img{
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
     vertical-align: middle;
-    font-family: Arial,sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-weight: 400;
-    line-height: 24px;
     white-space: nowrap;
-    padding-left: 15px;
+
 }
 
-.logoP{
+.divNav__link{
+    display: inline-block;
+    line-height: 24px;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: rgba(0,0,0,0.87);
+    font-family: Arial, sans-serif;
+}
+
+.divNav__link-puntitos{
+    background-position-x: -64px;
+    background-position-y: -29;
+    border-bottom-left-radius:2px ;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+
+.divNav__link-img{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.divNav__img{
     border-radius: 50%;
     background-size: 32px 32px;
     position: relative;   
-
+    width: 32px;
+    height: 32px;
+    white-space: nowrap;
+    z-index: 0;
+    margin: 0;
 }
-.puntitos{
+.divNav__svg{
     fill: rgb(95, 99, 104);
+    cursor: pointer;
     opacity: 1;
     overflow-x: hidden;
     overflow-y: hidden ;
     width: 24px;
     height: 24px;
+    white-space: nowrap;
 }
