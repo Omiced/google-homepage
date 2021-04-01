@@ -115,4 +115,27 @@ div{
     width: 24px;
     height: 24px;
     white-space: nowrap;
-} 
+}
+
+.divImg{
+    align-items: center;
+    box-sizing: box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    height: 92px;
+    justify-content: center;
+    margin-top: 0;
+    max-height: 290px;
+    min-height: 92px;
+    width: 1259px;
+  }
+.divImg__Img{
+    aspect-ratio: auto 272/92;
+    height: 92px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: 50% 100%;
+    width: 272px;
+}
