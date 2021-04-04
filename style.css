@@ -3,6 +3,9 @@
     margin: 0;
     
 }
+body html{
+    height: 100vh;
+}
 div{
     display:block;
 }
@@ -351,4 +354,114 @@ div{
 .formSearch__buttons:hover{
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
+}
+
+.divOfre{
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.divOfre__div{
+    color: rgb(34, 34, 34);
+    display: block;
+    height: 28px;
+    width: auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.divOfre__a{
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.divFooter{
+    background-attachment: s;
+    background-clip: border-box;
+    background-color: rgb(242, 242, 242);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    flex-shrink: 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin-top:31.5vh;
+    
+}
+
+.divFooter__pais{
+    border-bottom-color: rgb(218,220, 224);
+    border-bottom-style: solid;
+    border-block-width: 1px;
+    color:rgba(0,0,0,0.54);
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    height: 17px;
+    padding: 15px 30px 15px 30px;
+}
+
+.linksFooter{
+    color:rgb(34, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    height: 46px;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+.divFooter__linksLeft{
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    height: 46px;
+    justify-content: space-between;
+    width: 505.297px;
+}
+
+.divFooter__linksRight{
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    height: 46px;
+    justify-content: space-between;
+    
+}
+
+.divFooter__a{
+    color: rgb(112, 117, 122);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    height:16px;
+    padding: 15px;
+    text-decoration-color: rgb(112, 117, 122);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    white-space: nowrap;
 }
