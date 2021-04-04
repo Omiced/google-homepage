@@ -139,7 +139,50 @@ div{
     object-position: 50% 100%;
     width: 272px;
 }
-
+.divSearch{
+    align-items:center;
+    box-sizing: border-box;
+    color:rgb(34,34,34);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.formSearch__divSearch:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.formSearch__divSearch{
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255,255,255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-color: rgb(223, 225, 229);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: none;
+    color:rgb(34,34,34);
+    display:flex;
+    height: 44px;
+    margin: 0;
+    max-width: 584px;
+    width:482;
+    z-index: 3;
+}
 .formSearch__divLup{
     align-items: center;
     display:block;
@@ -149,6 +192,8 @@ div{
     margin-right: 0;
     margin-top: 9px;
     width: 20px;
+    padding-right: 13px;
+    padding-left: 14px;
 }
 .formSearch__spanLup{
     color: rgb(154,160,166);
@@ -192,14 +237,16 @@ div{
     height: 34px;
     letter-spacing: normal;
     line-height: normal;
-    margin: -37 0 0 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -37px;
     outline-color: rgba(0,0,0,0.87);
     outline-width: o;
     overflow-wrap: break-word;
     padding: 0;
     text-align: start;
-    word-spacing: 0;
-    writing-mode: horizontal-tb;
+    width: 487px;
 
 }
 
@@ -231,7 +278,8 @@ div{
     outline-color: rgb(34, 34, 34);
     outline-style: none;
     outline-width: 0;
-    padding: 0 8px 0 8px;
+    padding-right: 14px;
+    padding-left: 13px;
     width:24px;
 }
 
