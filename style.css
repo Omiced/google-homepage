@@ -139,3 +139,109 @@ div{
     object-position: 50% 100%;
     width: 272px;
 }
+
+.formSearch__divLup{
+    align-items: center;
+    display:block;
+    height: 26px;
+    margin-bottom: 9px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 9px;
+    width: 20px;
+}
+.formSearch__spanLup{
+    color: rgb(154,160,166);
+    display:inline-block;
+    fill:  rgb(154,160,166);
+    height: 20px;
+    line-height: 24px;
+    margin-top: 3px;
+    position:relative;
+    width: 20px;
+}
+
+.formSearch__divInput{
+    color:rgba(0, 0, 0, 0);
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 34px;
+    white-space: pre;
+    width: 487px;
+}
+
+.formSearch__input{
+    appearance: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0,0,0,0.87);
+    border-style: none;
+    border-width: 0;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgba(0,0,0,0.87);
+    cursor:text;
+    display:flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 34px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: -37 0 0 0;
+    outline-color: rgba(0,0,0,0.87);
+    outline-width: o;
+    overflow-wrap: break-word;
+    padding: 0;
+    text-align: start;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+
+}
+
+.formSearch__divMic{
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-color: rgb(34, 34, 34);
+    border-style: none;
+    border-width: 0;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-right-width: 1;
+    cursor:pointer;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 44px;
+    line-height: 44px;
+    outline-color: rgb(34, 34, 34);
+    outline-style: none;
+    outline-width: 0;
+    padding: 0 8px 0 8px;
+    width:24px;
+}
+
+.formSearch__mic{
+     color:rgb(34, 34, 34);
+     cursor: ponter;
+     height: 24px;
+     line-height: 44px;
+     overflow-x: hidden;
+     overflow-y: hidden;
+     vertical-align: middle;
+     width:24px;
+}
